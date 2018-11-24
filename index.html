@@ -1,0 +1,24 @@
+<!<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Pagina de santiago</title>
+    <script src="https://www.gstatic.com/firebasejs/5.5.9/firebase.js"></script>
+
+  </head>
+  <body>
+    <form  action="index.html" method="post">
+      Que desea medir <br>Para temperatura presione 0<br>Para humedad presione 1 <br> Para distancia presione 2:<br> <input type="text" id="sense"><br>
+      Cuanto tiempo quiere medir:<br>
+      Horas <input type="text" id="a"><br>
+      Minutos <input type="text"id="b"><br>
+      Segundos<input type="text" id="c"><br>
+      Cuantas medidas quiere realizar:<br> <input type="text" id="med"><br>
+
+    <button id="enviar"> Enviar</button>
+
+    </form>
+    <script src="sensoresjava.js">
+    </script>
+  </body>
+</html>
