@@ -27,6 +27,7 @@
       tiempo: tiempo_,
       med: med_,
       sense: sense_,
+      boton: 1 
     };
     refpreguntas.set(datos);
   };
